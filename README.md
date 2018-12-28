@@ -13,11 +13,13 @@ npm install ccms-svg-icons --save;
 
 ```js
 // 单独引入你需要使用的 icon 组件
+import angular from 'angular';
 import iconWechat from 'ccms-svg-icons/svgs/iconWechat'
+angular.module('app', [iconWechat]);
 ```
 
 ```html
-<icon-wechat></icon-wechat>
+<icon-wechat class-name="yourClassName"></icon-wechat>
 ```
 
 ### 发布
