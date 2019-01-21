@@ -1,6 +1,6 @@
 import angular from 'angular';
 
-const template = `<svg style="font-size:20px; width:1em; height:1em;" ng-class="$ctrl.className">
+const template = `<svg ng-class="$ctrl.className" class="cc-icon">
     ${symbol}
 	<use xlink:href="#${symbolName}"></use>
 </svg>`;
