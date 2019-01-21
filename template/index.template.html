@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en" ng-app="app">
+<head>
+    <meta charset="UTF-8">
+    <title>demos</title>
+</head>
+<style>
+    .main {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+</style>
+<body>
+    <div class="main">
+        ${tagNames}
+    </div>
+</body>
+<script src="/components.js"></script>
+<script src="../node_modules/clipboard/dist/clipboard.min.js"></script>
+<script>
+    new ClipboardJS('.btn');
+    angular.module('app', ['ccms.icon']).controller('ctrl', function() {
+        // nothing
+        console.log('xxx is nothing');
+    });
+</script>
+</html>

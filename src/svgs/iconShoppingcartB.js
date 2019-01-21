@@ -13,6 +13,6 @@ const ddo = {
 };
 
 export default angular
-	.module('ccms.icon.iconShoppingCart', [])
-	.component(`iconShoppingCart`, ddo)
+	.module('ccms.icon.iconShoppingcartB', [])
+	.component(`iconShoppingcartB`, ddo)
 	.name;
