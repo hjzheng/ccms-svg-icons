@@ -24,7 +24,10 @@ angular.module('app', [iconWechat]);
 
 ### 发布
 
-注意: 将新的 iconfont.js 拷贝到 svg-source 目录
+注意:
+ - *将新的 iconfont.js 拷贝到 svg-source 目录*
+ - *UX 添加新的 svg 时, 需注意一下命名, 不要重复*
+
 ```
 npm run release
 ```
