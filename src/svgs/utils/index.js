@@ -12,6 +12,6 @@ export default function insertCSSRule() {
 	const style = document.createElement('style');
 	style.type = 'text/css';
 	style.id = 'svg-icon';
-	style.innerHTML = '.cc-icon {width:1em; height:1em; font-size:32px;}'; // default style
+	style.innerHTML = '.cc-icon {width:1em; height:1em; font-size:12px;}'; // default style
 	document.getElementsByTagName('head')[0].appendChild(style);
 }
