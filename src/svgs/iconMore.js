@@ -1,4 +1,7 @@
 import angular from 'angular';
+import insertCSSRule from './utils';
+
+insertCSSRule();
 
 const template = `<svg ng-class="$ctrl.className" class="cc-icon">
     <symbol id="icon-more" viewBox="0 0 1024 1024"><path d="M962 62v900h-900z"  ></path></symbol>
