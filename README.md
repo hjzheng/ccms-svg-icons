@@ -31,3 +31,11 @@ angular.module('app', [iconWechat]);
 ```
 npm run release
 ```
+
+### Example
+
+```
+npm start
+```
+
+访问 http://127.0.0.1:4000/demos/index.html
